@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author apena
+ *
+ */
+module equajava {
+}
