@@ -14,23 +14,23 @@ public class Equacao {
 		double x1 = 1;
 		double y1 = 1;
 		double z1 = 1;
-		double si1 = 6;
+		double si1 = 18;
 		
-		double x2 = 1;
-		double y2 = 2;
-		double z2 = 2;
-		double si2 = 9;
+		double x2 = 2;
+		double y2 = 3;
+		double z2 = 5;
+		double si2 = 46;
 		
 		double x3 = 2;
-		double y3 = 1;
+		double y3 = -1;
 		double z3 = 3;
-		double si3 = 11;
+		double si3 = 10;
 		
 		boolean numeroQuebrado = false;
 		
 		
 		
-		System.out.println(eqj.equacao(3,2,6,2,3,5,numeroQuebrado));
+		System.out.println(eqj.equacao(x1, x2, y1, y2, si1, si2, numeroQuebrado));
 		
 		
 		
