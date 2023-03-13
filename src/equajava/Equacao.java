@@ -1,21 +1,36 @@
 package equajava;
 
+import java.util.Locale;
+
 public class Equacao {
 
 	public static void main(String[] args) {
 		
+		Locale.setDefault(Locale.US);
 		EquaJava eqj = new EquaJava();
 		
-		int x1 = 3;
-		int y1 = 2;
-		int si1 = 6;
-		
-		int x2 = 2;
-		int y2 = 3;
-		int si2 = 5;
 		
 		
-		System.out.println(eqj.equacao(x1, x2, y1, y2, si1, si2));
+		double x1 = 1;
+		double y1 = 1;
+		double z1 = 1;
+		double si1 = 6;
+		
+		double x2 = 1;
+		double y2 = 2;
+		double z2 = 2;
+		double si2 = 9;
+		
+		double x3 = 2;
+		double y3 = 1;
+		double z3 = 3;
+		double si3 = 11;
+		
+		boolean numeroQuebrado = false;
+		
+		
+		
+		System.out.println(eqj.equacao(3,2,6,2,3,5,numeroQuebrado));
 		
 		
 		
