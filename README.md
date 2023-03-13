@@ -1,6 +1,6 @@
 # Equa Java
 
-Vamos falar de NERDICE 🤓? sim, eu estava atoa e decidi criar uma função que calcula equação(até então de duas colunas) com duas incógnitas.
+Vamos falar de NERDICE 🤓? sim, eu estava atoa e decidi criar uma função que calcula equação de duas colunas ou três. 
 
 Me dei esse desafio prático na intenção de treinar meus novos conhecimentos e de dar um **START** no meu perfil aqui na comunidade.
 
@@ -17,18 +17,20 @@ simples ( mais ou menos ), ela processa uma equação de duas linhas desse tipo:
 2x + 3y = 5
 
 E retorna um resultado assim: S={(valorX , valorY)}
+
+ou 
+
+x+y+z=1
+x-y+z=3
+x-y-z=1
+
+e retorna um resultado assim: S{(valorX, valorY, valorZ)}
 ```
 
-Inclusive, verifica se o valor de x é número com casa decimal. Caso for, ele imprime o resultado de x (OU Y, OU OS 2) no valor de fração. 
+Inclusive, verifica se o valor da incógnita é número com casa decimal. Caso for, ele imprime o resultado da incógnita no valor de fração. 
 
-No exemplo da equação que dei logo acima, o resultado é: **S={(8/5 , 3/5)}** ( 8 sobre 5, 3 sobre 5)
+No exemplo da primeira equação que dei logo acima, o resultado é: **S={(8.0/5.0 , 3.0/5.0)}** ( 8 sobre 5, 3 sobre 5)
 
-Está bem simples ainda, sem muita refatoração. Os próximos commit’s serão colocando sobrecargas nas funções para resolver:
+Existe já uma função nativa ou não que faz isso? Possivelmente. Mas eu sou movido pela curiosidade e decidi fazer a minha para fins educativos( ver o resultado dos exercícios dados em sala de aula e assim, não errar na forma do cálculo).
 
-```html
-// 3 incógnitas e 3 linhas. Exemplo:
-
-x + y + z = 6
-x + 2y + 2z = 9
-2x + y + 3z = 11
-```
+Um forte abraço !
